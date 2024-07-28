@@ -1,0 +1,45 @@
+# Machine_learning_internship-Project-
+**WEEK ONE TASKS**
+
+*Task:1 Implement a basic linear regression model from scratch
+using NumPy. Fit the model to a simple dataset and plot the
+regression line.*
+
+To implement a basic linear regression model from scratch using NumPy, I first defined the linear relationship 
+x and used Mean Squared Error (MSE) as the loss function to gauge the model's accuracy. I then applied gradient
+descent to iteratively update the parameters by calculating the gradients of the MSE with respect to these parameters 
+and adjusting them accordingly. This process involved initializing parameters, computing predictions, calculating gradients, 
+and updating parameters until convergence. Finally, I visualized the model's fit by plotting the regression line against the dataset, 
+which demonstrated how effectively the model captured the data's linear trend.
+
+*Task:2 Perform data cleaning on a real-world dataset. Handle missing values, detect and remove outliers, and normalize/standardize the data using pandas.*
+
+To clean the real-world dataset, I first assessed missing values and addressed them by filling numerical data with
+ the mean if symmetric or the median if there were significant outliers, while categorical data were filled with the mode to preserve data integrity. Outliers were detected using boxplots and removed via the Interquartile Range (IQR) method, defining thresholds as values beyond  Q1-1.5xIQR and Q3+1.5xIQR. Finally, I standardized the numerical data using z-score (X-Xmean/std) normalization to ensure that all features were on a comparable scale with a mean of 0 and a standard deviation of 1.
+
+*Task 3: Implement feature selection using correlation matrix and
+mutual information. Visualize the important features.*
+
+To implement feature selection, I first calculated the correlation matrix to identify relationships between features and the target variable.Features with high correlation coefficients with the target were deemed important. Additionally, I used mutual information scores to assess the dependence between each feature and the target variable, which helps in capturing the relationships. Important features were selected based on high correlation and mutual information scores. I then visualized these key features using a heatmap for the correlation matrix and a bar chart for mutual information scores, highlighting their significance in relation to the target variable.
+
+*Task:4 Conduct exploratory data analysis (EDA) on a dataset.
+Generate insightful visualizations using matplotlib and seaborn.*
+
+In conducting exploratory data analysis (EDA) on the life expectancy dataset, i visualize the distribution of life expectancy across developing and developed countries using histograms, revealing how life expectancy varies between these groups. To examine the relationships between life expectancy GDP, and schooling, i use a pairplot, showcasing how these variables correlate and interact with one another. Additionally, I identify the top and bottom 5 countries with the highest and lowest mean life expectancy respectively, and visualize this data using a violin plot to highlight the distribution and spread of life expectancy within these groups.
+
+*Task 5: Apply PCA (Principal Component Analysis) to reduce the
+dimensionality of a dataset and visualize the results in 2D/3D.*
+
+I applied Principal Component Analysis (PCA) to the dataset, a dimensionality reduction technique, to identify and extract the most important features relevant to the target variable. This process effectively reduced the original 22 features down to 13, retaining the essential information while simplifying the dataset for further analysis and visualize it in 2-D.
+
+
+
+
+
+
+
+
+
+
+
+
