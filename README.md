@@ -1,5 +1,7 @@
 # **Advanced Machine Learning and Deep Learning Projects**
-## Week 1 Learning Tasks and Outcomes
+This repository is a showcase of my self-directed learning in machine learning (ML) and deep learning (DL). Through a series of hands-on projects, I have implemented key algorithms and techniques, explored real-world datasets, and applied advanced concepts to solve diverse problems
+# Projects Overview
+## Week 1 Regression and Data Preparation
 * **Linear Regression from Scratch:** Built a basic linear regression model using NumPy, fitted it to a dataset, and plotted the regression line, enhancing understanding of regression fundamentals.
 * **Data Cleaning:** Performed missing value imputation, outlier detection/removal, and data normalization/standardization with Pandas to improve data quality.
 * **Feature Selection:** Implemented a correlation matrix and mutual information analysis to identify important features and visualized them effectively.
