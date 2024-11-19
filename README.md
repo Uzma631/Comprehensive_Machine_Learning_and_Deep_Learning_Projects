@@ -33,7 +33,19 @@ This repository is a showcase of my self-directed learning in machine learning (
 * **Recurrent Neural Networks (RNN):** Trained an RNN with LSTM/GRU units for time series forecasting, improving accuracy in sequential data prediction.
 * **Natural Language Processing (NLP):** Built an NLP pipeline using word embeddings (Word2Vec, GloVe) and RNNs, and trained the model on a sentiment analysis task for effective text classification.
 * **Generative Adversarial Network (GAN):** Implemented a GAN to generate synthetic images, trained it on a chosen dataset, and explored the potential of generative models.
-R
+
+# **Technologies, Tools, and Datasets**
+# Programming and Libraries
+* Languages and Frameworks: Python, NumPy, Pandas, scikit-learn, TensorFlow, Keras, XGBoost
+Visualization Tools: Matplotlib, Seaborn
+# Datasets
+1. **Iris Dataset:** Used for classification with K-Nearest Neighbors and classifier comparisons.
+2. **MNIST Dataset:** Digit classification using deep neural networks.
+3. **CIFAR-10 Dataset:** Image classification using convolutional neural networks.
+4. **Time Series Dataset:** For RNN-based time series forecasting.
+5. **Custom/Noisy Dataset:** For comparing clustering algorithms like DBSCAN and k-means.
+6. **Sentiment Dataset:** For NLP pipeline implementation.
+
 
 
 
